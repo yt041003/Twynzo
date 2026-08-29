@@ -1,0 +1,885 @@
+[
+  {
+    "id": "00000000-0000-4000-8000-000000000001",
+    "canonicalKey": "fly-invisible",
+    "categories": [
+      "general"
+    ],
+    "difficulty": "normal",
+    "dailyEligible": true,
+    "status": "published",
+    "localizations": {
+      "en": {
+        "a": "Be able to fly",
+        "b": "Be invisible",
+        "status": "reviewed"
+      },
+      "zh-Hant": {
+        "a": "可以飛",
+        "b": "可以隱形",
+        "status": "reviewed"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000002",
+    "canonicalKey": "space-ocean",
+    "categories": [
+      "general",
+      "hard"
+    ],
+    "difficulty": "hard",
+    "dailyEligible": true,
+    "status": "published",
+    "localizations": {
+      "en": {
+        "a": "Explore space",
+        "b": "Explore the deep ocean",
+        "status": "reviewed"
+      },
+      "zh-Hant": {
+        "a": "探索太空",
+        "b": "探索深海",
+        "status": "reviewed"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000003",
+    "canonicalKey": "languages-instruments",
+    "categories": [
+      "general"
+    ],
+    "difficulty": "normal",
+    "dailyEligible": true,
+    "status": "published",
+    "localizations": {
+      "en": {
+        "a": "Speak every language",
+        "b": "Play every instrument",
+        "status": "reviewed"
+      },
+      "zh-Hant": {
+        "a": "懂得所有語言",
+        "b": "會演奏所有樂器",
+        "status": "reviewed"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000004",
+    "canonicalKey": "beach-mountains",
+    "categories": [
+      "general"
+    ],
+    "difficulty": "normal",
+    "dailyEligible": true,
+    "status": "published",
+    "localizations": {
+      "en": {
+        "a": "Live by the beach",
+        "b": "Live in the mountains",
+        "status": "reviewed"
+      },
+      "zh-Hant": {
+        "a": "住在海邊",
+        "b": "住在山中",
+        "status": "reviewed"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000005",
+    "canonicalKey": "music-movies",
+    "categories": [
+      "hard"
+    ],
+    "difficulty": "hard",
+    "dailyEligible": true,
+    "status": "published",
+    "localizations": {
+      "en": {
+        "a": "Give up music",
+        "b": "Give up movies",
+        "status": "reviewed"
+      },
+      "zh-Hant": {
+        "a": "放棄音樂",
+        "b": "放棄電影",
+        "status": "reviewed"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000006",
+    "canonicalKey": "early-late",
+    "categories": [
+      "hard"
+    ],
+    "difficulty": "hard",
+    "dailyEligible": true,
+    "status": "published",
+    "localizations": {
+      "en": {
+        "a": "Always arrive 30 minutes early",
+        "b": "Always arrive 10 minutes late",
+        "status": "reviewed"
+      },
+      "zh-Hant": {
+        "a": "總是早到 30 分鐘",
+        "b": "總是遲到 10 分鐘",
+        "status": "reviewed"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000007",
+    "canonicalKey": "whisper-shout",
+    "categories": [
+      "funny"
+    ],
+    "difficulty": "normal",
+    "dailyEligible": true,
+    "status": "published",
+    "localizations": {
+      "en": {
+        "a": "Only be able to whisper",
+        "b": "Only be able to shout",
+        "status": "reviewed"
+      },
+      "zh-Hant": {
+        "a": "只能小聲說話",
+        "b": "只能大聲說話",
+        "status": "reviewed"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000008",
+    "canonicalKey": "socks-wet",
+    "categories": [
+      "funny",
+      "hard"
+    ],
+    "difficulty": "hard",
+    "dailyEligible": true,
+    "status": "published",
+    "localizations": {
+      "en": {
+        "a": "Always wear slightly wet socks",
+        "b": "Always have a pebble in your shoe",
+        "status": "reviewed"
+      },
+      "zh-Hant": {
+        "a": "總是穿著微濕的襪子",
+        "b": "鞋裡總是有一顆小石頭",
+        "status": "reviewed"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000009",
+    "canonicalKey": "pause-rewind",
+    "categories": [
+      "general",
+      "hard"
+    ],
+    "difficulty": "hard",
+    "dailyEligible": true,
+    "status": "published",
+    "localizations": {
+      "en": {
+        "a": "Pause time for ten seconds",
+        "b": "Rewind time for one minute",
+        "status": "reviewed"
+      },
+      "zh-Hant": {
+        "a": "讓時間暫停十秒",
+        "b": "讓時間倒退一分鐘",
+        "status": "reviewed"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000010",
+    "canonicalKey": "future-past",
+    "categories": [
+      "general"
+    ],
+    "difficulty": "normal",
+    "dailyEligible": true,
+    "status": "published",
+    "localizations": {
+      "en": {
+        "a": "Visit the future for one day",
+        "b": "Visit the past for one day",
+        "status": "reviewed"
+      },
+      "zh-Hant": {
+        "a": "到未來一天",
+        "b": "回到過去一天",
+        "status": "reviewed"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000011",
+    "canonicalKey": "book-film",
+    "categories": [
+      "general"
+    ],
+    "difficulty": "normal",
+    "dailyEligible": true,
+    "status": "published",
+    "localizations": {
+      "en": {
+        "a": "Read the book first",
+        "b": "Watch the film first",
+        "status": "reviewed"
+      },
+      "zh-Hant": {
+        "a": "先看原著小說",
+        "b": "先看電影",
+        "status": "reviewed"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000012",
+    "canonicalKey": "sunrise-sunset",
+    "categories": [
+      "general"
+    ],
+    "difficulty": "normal",
+    "dailyEligible": true,
+    "status": "published",
+    "localizations": {
+      "en": {
+        "a": "Watch every sunrise",
+        "b": "Watch every sunset",
+        "status": "reviewed"
+      },
+      "zh-Hant": {
+        "a": "看每一次日出",
+        "b": "看每一次日落",
+        "status": "reviewed"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000013",
+    "canonicalKey": "cook-clean",
+    "categories": [
+      "couples"
+    ],
+    "difficulty": "normal",
+    "dailyEligible": false,
+    "status": "published",
+    "localizations": {
+      "en": {
+        "a": "Always cook dinner",
+        "b": "Always clean up after dinner",
+        "status": "reviewed"
+      },
+      "zh-Hant": {
+        "a": "每晚負責煮飯",
+        "b": "每晚負責飯後清潔",
+        "status": "reviewed"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000014",
+    "canonicalKey": "planned-spontaneous",
+    "categories": [
+      "couples"
+    ],
+    "difficulty": "normal",
+    "dailyEligible": false,
+    "status": "published",
+    "localizations": {
+      "en": {
+        "a": "Plan every date together",
+        "b": "Take turns planning surprise dates",
+        "status": "reviewed"
+      },
+      "zh-Hant": {
+        "a": "一起計劃每次約會",
+        "b": "輪流安排驚喜約會",
+        "status": "reviewed"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000015",
+    "canonicalKey": "city-country",
+    "categories": [
+      "couples"
+    ],
+    "difficulty": "normal",
+    "dailyEligible": false,
+    "status": "published",
+    "localizations": {
+      "en": {
+        "a": "Share a small city apartment",
+        "b": "Share a large home in the countryside",
+        "status": "reviewed"
+      },
+      "zh-Hant": {
+        "a": "一起住在市區小公寓",
+        "b": "一起住在郊外大房子",
+        "status": "reviewed"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000016",
+    "canonicalKey": "photos-moments",
+    "categories": [
+      "couples"
+    ],
+    "difficulty": "normal",
+    "dailyEligible": false,
+    "status": "published",
+    "localizations": {
+      "en": {
+        "a": "Take lots of trip photos",
+        "b": "Put the camera away and enjoy the moment",
+        "status": "reviewed"
+      },
+      "zh-Hant": {
+        "a": "旅行時拍很多照片",
+        "b": "放下相機享受當下",
+        "status": "reviewed"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000017",
+    "canonicalKey": "breakfast-dinner",
+    "categories": [
+      "couples"
+    ],
+    "difficulty": "normal",
+    "dailyEligible": false,
+    "status": "published",
+    "localizations": {
+      "en": {
+        "a": "Go out for breakfast",
+        "b": "Go out for dinner",
+        "status": "reviewed"
+      },
+      "zh-Hant": {
+        "a": "外出吃早餐",
+        "b": "外出吃晚餐",
+        "status": "reviewed"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000018",
+    "canonicalKey": "same-hobby",
+    "categories": [
+      "couples"
+    ],
+    "difficulty": "normal",
+    "dailyEligible": false,
+    "status": "published",
+    "localizations": {
+      "en": {
+        "a": "Share the same main hobby",
+        "b": "Have completely different hobbies",
+        "status": "reviewed"
+      },
+      "zh-Hant": {
+        "a": "擁有相同的主要興趣",
+        "b": "各自擁有完全不同的興趣",
+        "status": "reviewed"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000019",
+    "canonicalKey": "sing-speak",
+    "categories": [
+      "funny"
+    ],
+    "difficulty": "normal",
+    "dailyEligible": true,
+    "status": "published",
+    "localizations": {
+      "en": {
+        "a": "Sing everything you say",
+        "b": "Dance everywhere you go",
+        "status": "reviewed"
+      },
+      "zh-Hant": {
+        "a": "把每句話都唱出來",
+        "b": "走到哪裡都要跳舞",
+        "status": "reviewed"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000020",
+    "canonicalKey": "duck-cat",
+    "categories": [
+      "funny"
+    ],
+    "difficulty": "normal",
+    "dailyEligible": true,
+    "status": "published",
+    "localizations": {
+      "en": {
+        "a": "Have a duck that follows you everywhere",
+        "b": "Have a cat that narrates your day",
+        "status": "reviewed"
+      },
+      "zh-Hant": {
+        "a": "有一隻到處跟著你的鴨子",
+        "b": "有一隻會旁述你生活的貓",
+        "status": "reviewed"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000021",
+    "canonicalKey": "spaghetti-hair",
+    "categories": [
+      "funny"
+    ],
+    "difficulty": "normal",
+    "dailyEligible": true,
+    "status": "published",
+    "localizations": {
+      "en": {
+        "a": "Have spaghetti for hair",
+        "b": "Have popcorn for teeth",
+        "status": "reviewed"
+      },
+      "zh-Hant": {
+        "a": "頭髮變成意大利麵",
+        "b": "牙齒變成爆米花",
+        "status": "reviewed"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000022",
+    "canonicalKey": "hiccup-laugh",
+    "categories": [
+      "funny"
+    ],
+    "difficulty": "normal",
+    "dailyEligible": true,
+    "status": "published",
+    "localizations": {
+      "en": {
+        "a": "Hiccup whenever you laugh",
+        "b": "Laugh whenever someone says your name",
+        "status": "reviewed"
+      },
+      "zh-Hant": {
+        "a": "每次笑都會打嗝",
+        "b": "每次有人叫你名字都會笑",
+        "status": "reviewed"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000023",
+    "canonicalKey": "tiny-elephant",
+    "categories": [
+      "funny"
+    ],
+    "difficulty": "normal",
+    "dailyEligible": true,
+    "status": "published",
+    "localizations": {
+      "en": {
+        "a": "Own an elephant the size of a cat",
+        "b": "Own a cat the size of an elephant",
+        "status": "reviewed"
+      },
+      "zh-Hant": {
+        "a": "養一隻貓那麼小的大象",
+        "b": "養一隻大象那麼大的貓",
+        "status": "reviewed"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000024",
+    "canonicalKey": "backwards-rhyme",
+    "categories": [
+      "funny"
+    ],
+    "difficulty": "normal",
+    "dailyEligible": true,
+    "status": "published",
+    "localizations": {
+      "en": {
+        "a": "Walk backward everywhere",
+        "b": "Speak only in rhymes",
+        "status": "reviewed"
+      },
+      "zh-Hant": {
+        "a": "到哪裡都要倒著走",
+        "b": "說話只能押韻",
+        "status": "reviewed"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000025",
+    "canonicalKey": "truth-memory",
+    "categories": [
+      "hard"
+    ],
+    "difficulty": "hard",
+    "dailyEligible": true,
+    "status": "published",
+    "localizations": {
+      "en": {
+        "a": "Know the full truth",
+        "b": "Keep a comforting memory",
+        "status": "reviewed"
+      },
+      "zh-Hant": {
+        "a": "知道完整真相",
+        "b": "保留一段美好的記憶",
+        "status": "reviewed"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000026",
+    "canonicalKey": "famous-private",
+    "categories": [
+      "hard"
+    ],
+    "difficulty": "hard",
+    "dailyEligible": true,
+    "status": "published",
+    "localizations": {
+      "en": {
+        "a": "Be famous but have no privacy",
+        "b": "Be unknown but deeply respected by friends",
+        "status": "reviewed"
+      },
+      "zh-Hant": {
+        "a": "成名但毫無私隱",
+        "b": "默默無名但深受朋友尊重",
+        "status": "reviewed"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000027",
+    "canonicalKey": "perfect-job",
+    "categories": [
+      "hard"
+    ],
+    "difficulty": "hard",
+    "dailyEligible": true,
+    "status": "published",
+    "localizations": {
+      "en": {
+        "a": "Have a dream job with little free time",
+        "b": "Have an ordinary job with lots of free time",
+        "status": "reviewed"
+      },
+      "zh-Hant": {
+        "a": "做夢想工作但很少有空",
+        "b": "做普通工作但有很多空閒時間",
+        "status": "reviewed"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000028",
+    "canonicalKey": "certainty-surprise",
+    "categories": [
+      "hard"
+    ],
+    "difficulty": "hard",
+    "dailyEligible": true,
+    "status": "published",
+    "localizations": {
+      "en": {
+        "a": "Know exactly how your life unfolds",
+        "b": "Let the future remain a surprise",
+        "status": "reviewed"
+      },
+      "zh-Hant": {
+        "a": "清楚知道人生會如何發展",
+        "b": "讓未來保持未知",
+        "status": "reviewed"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000029",
+    "canonicalKey": "talent-effort",
+    "categories": [
+      "hard"
+    ],
+    "difficulty": "hard",
+    "dailyEligible": true,
+    "status": "published",
+    "localizations": {
+      "en": {
+        "a": "Be naturally talented but unmotivated",
+        "b": "Be highly motivated but learn slowly",
+        "status": "reviewed"
+      },
+      "zh-Hant": {
+        "a": "天賦出眾但缺乏動力",
+        "b": "學得較慢但充滿動力",
+        "status": "reviewed"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000030",
+    "canonicalKey": "home-travel",
+    "categories": [
+      "general"
+    ],
+    "difficulty": "normal",
+    "dailyEligible": true,
+    "status": "published",
+    "localizations": {
+      "en": {
+        "a": "Have your perfect home",
+        "b": "Travel somewhere new every month",
+        "status": "reviewed"
+      },
+      "zh-Hant": {
+        "a": "擁有理想的家",
+        "b": "每月到一個新地方旅行",
+        "status": "reviewed"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000031",
+    "canonicalKey": "weather",
+    "categories": [
+      "general"
+    ],
+    "difficulty": "normal",
+    "dailyEligible": true,
+    "status": "published",
+    "localizations": {
+      "en": {
+        "a": "Have perfect weather every weekend",
+        "b": "Never wait in a queue again",
+        "status": "reviewed"
+      },
+      "zh-Hant": {
+        "a": "每個週末都有完美天氣",
+        "b": "以後都不用排隊",
+        "status": "reviewed"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000032",
+    "canonicalKey": "read-minds",
+    "categories": [
+      "general"
+    ],
+    "difficulty": "normal",
+    "dailyEligible": true,
+    "status": "published",
+    "localizations": {
+      "en": {
+        "a": "Read minds when you choose",
+        "b": "See ten minutes into the future",
+        "status": "reviewed"
+      },
+      "zh-Hant": {
+        "a": "選擇性讀心",
+        "b": "看見十分鐘後的未來",
+        "status": "reviewed"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000033",
+    "canonicalKey": "coffee-tea",
+    "categories": [
+      "general"
+    ],
+    "difficulty": "normal",
+    "dailyEligible": true,
+    "status": "published",
+    "localizations": {
+      "en": {
+        "a": "Only drink coffee",
+        "b": "Only drink tea",
+        "status": "reviewed"
+      },
+      "zh-Hant": {
+        "a": "只能喝咖啡",
+        "b": "只能喝茶",
+        "status": "reviewed"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000034",
+    "canonicalKey": "summer-winter",
+    "categories": [
+      "general"
+    ],
+    "difficulty": "normal",
+    "dailyEligible": true,
+    "status": "published",
+    "localizations": {
+      "en": {
+        "a": "Have a year of summer",
+        "b": "Have a year of winter",
+        "status": "reviewed"
+      },
+      "zh-Hant": {
+        "a": "過一整年的夏天",
+        "b": "過一整年的冬天",
+        "status": "reviewed"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000035",
+    "canonicalKey": "garden-balcony",
+    "categories": [
+      "general"
+    ],
+    "difficulty": "normal",
+    "dailyEligible": true,
+    "status": "published",
+    "localizations": {
+      "en": {
+        "a": "Grow a big garden",
+        "b": "Have a balcony with a great view",
+        "status": "reviewed"
+      },
+      "zh-Hant": {
+        "a": "擁有一座大花園",
+        "b": "擁有景觀開揚的露台",
+        "status": "reviewed"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000036",
+    "canonicalKey": "museum-concert",
+    "categories": [
+      "general"
+    ],
+    "difficulty": "normal",
+    "dailyEligible": true,
+    "status": "published",
+    "localizations": {
+      "en": {
+        "a": "Visit a museum after hours",
+        "b": "Attend a private concert",
+        "status": "reviewed"
+      },
+      "zh-Hant": {
+        "a": "在閉館後參觀博物館",
+        "b": "參加一場私人音樂會",
+        "status": "reviewed"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000037",
+    "canonicalKey": "pancake-pizza",
+    "categories": [
+      "funny"
+    ],
+    "difficulty": "normal",
+    "dailyEligible": true,
+    "status": "published",
+    "localizations": {
+      "en": {
+        "a": "Eat pancake-shaped pizza",
+        "b": "Eat pizza-flavoured pancakes",
+        "status": "reviewed"
+      },
+      "zh-Hant": {
+        "a": "吃薄餅形狀的披薩",
+        "b": "吃披薩口味的薄餅",
+        "status": "reviewed"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000038",
+    "canonicalKey": "robot-parrot",
+    "categories": [
+      "funny"
+    ],
+    "difficulty": "normal",
+    "dailyEligible": true,
+    "status": "published",
+    "localizations": {
+      "en": {
+        "a": "Have a robot that tells bad jokes",
+        "b": "Have a parrot that gives unwanted advice",
+        "status": "reviewed"
+      },
+      "zh-Hant": {
+        "a": "有一個只會說冷笑話的機械人",
+        "b": "有一隻總愛給多餘建議的鸚鵡",
+        "status": "reviewed"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000039",
+    "canonicalKey": "routine-adventure",
+    "categories": [
+      "couples"
+    ],
+    "difficulty": "normal",
+    "dailyEligible": false,
+    "status": "published",
+    "localizations": {
+      "en": {
+        "a": "Build a comfortable routine together",
+        "b": "Try a new adventure every weekend",
+        "status": "reviewed"
+      },
+      "zh-Hant": {
+        "a": "一起建立舒適的日常生活",
+        "b": "每個週末嘗試新冒險",
+        "status": "reviewed"
+      }
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000000040",
+    "canonicalKey": "gift-experience",
+    "categories": [
+      "couples"
+    ],
+    "difficulty": "normal",
+    "dailyEligible": false,
+    "status": "published",
+    "localizations": {
+      "en": {
+        "a": "Receive a thoughtful gift",
+        "b": "Share an unforgettable experience",
+        "status": "reviewed"
+      },
+      "zh-Hant": {
+        "a": "收到一份貼心禮物",
+        "b": "一起經歷難忘時刻",
+        "status": "reviewed"
+      }
+    }
+  }
+]

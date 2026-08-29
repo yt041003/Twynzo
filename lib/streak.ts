@@ -1,0 +1,2 @@
+export type Streak={lastCompletedDate:string|null;currentStreak:number;bestStreak:number};
+export function updateStreak(s:Streak,today:string):Streak{if(s.lastCompletedDate===today)return s;const prev=new Date(`${s.lastCompletedDate}T12:00:00`),now=new Date(`${today}T12:00:00`);const consecutive=s.lastCompletedDate&&((+now-+prev)/86400000===1);const current=consecutive?s.currentStreak+1:1;return{lastCompletedDate:today,currentStreak:current,bestStreak:Math.max(s.bestStreak,current)}}

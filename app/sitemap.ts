@@ -1,0 +1,2 @@
+import type {MetadataRoute} from 'next';import {SITE,slugs} from '@/lib/site';
+export default function sitemap():MetadataRoute.Sitemap{const paths=['',...['en','zh-hant'].flatMap(l=>[`${l}/`,...slugs.map(s=>`${l}/${s}/`),...['about','privacy','terms','contact'].map(s=>`${l}/${s}/`)])];return paths.map(path=>({url:`${SITE}/${path}`,changeFrequency:path.includes('would-you-rather/')?'daily':'monthly',priority:path===''?1:.7}))}
