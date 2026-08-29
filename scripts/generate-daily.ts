@@ -6,7 +6,7 @@ if(!url||!key)throw new Error('Set Supabase server environment variables');
 const db=createClient(url,key);
 const {data,error}=await db.from('questions').select('id,question_categories(categories(slug)),question_localizations(locale,translation_status)').eq('status','published').eq('content_rating','clean').eq('daily_eligible',true);
 if(error)throw error;
-const eligibleRaw=(data||[]).filter((q:any)=>['en','zh-Hant'].every(l=>q.question_localizations.some((x:any)=>x.locale===l&&x.translation_status==='reviewed'));
+const eligibleRaw=(data||[]).filter((q:any)=>['en','zh-Hant'].every(l=>q.question_localizations.some((x:any)=>x.locale===l&&x.translation_status==='reviewed')));
 const eligible:DailyQuestion[]=eligibleRaw.map((q:any)=>({id:q.id,categories:q.question_categories.map((x:any)=>x.categories.slug)}));
 validateDailyCapacity(eligible);
 const eligibleById=new Map(eligible.map(q=>[q.id,q]));
