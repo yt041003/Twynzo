@@ -1,5 +1,7 @@
 import {test,expect} from '@playwright/test';
 
+test('root defaults to English and language switcher remains available',async({page})=>{await page.goto('/');await expect(page).toHaveURL(/\/en\/$/);await expect(page.getByRole('heading',{level:1})).toContainText('Pick a side');await expect(page.getByRole('link',{name:'繁中'})).toBeVisible()});
+
 test('English and Chinese SEO shells keep the exact counterpart path',async({page})=>{await page.goto('/en/would-you-rather-for-couples/');await expect(page.getByRole('heading',{level:1})).toContainText('Couples');await page.getByRole('link',{name:'繁中'}).click();await expect(page).toHaveURL(/zh-hant\/would-you-rather-for-couples/);await expect(page.getByRole('heading',{level:1})).toContainText('情侶')});
 
 test('mobile free play votes, reveals percentages and advances',async({page})=>{await page.setViewportSize({width:360,height:740});await page.route('**/api/vote',route=>route.fulfill({status:200,contentType:'application/json',body:JSON.stringify({a:6,b:4,total:10,aPercent:60,bPercent:40,userChoice:'A'})}));await page.route('**/api/questions/next**',route=>route.fulfill({status:200,contentType:'application/json',body:JSON.stringify({id:'mock-next',a:'Next option A',b:'Next option B'})}));await page.goto('/en/would-you-rather/');await page.getByRole('button',{name:/^A:/}).click();await expect(page.getByText('60%')).toBeVisible();await page.getByRole('button',{name:'Next Question'}).click();await expect(page.getByRole('button',{name:/A: Next option A/})).toBeVisible()});
