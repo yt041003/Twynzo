@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function NotFound(){return <main className="min-h-screen grid place-items-center p-5 text-center"><div><div className="wordmark">Twynzo</div><h1 className="mt-6">Looks like this choice doesn’t exist.</h1><p lang="zh-Hant" className="mt-4 text-xl">這個選項好像不存在。</p><div className="mt-8 flex flex-wrap justify-center gap-3"><Link className="btn" href="/en/would-you-rather/">Play in English</Link><Link className="btn bg-[#172033]!" href="/zh-hant/would-you-rather/" lang="zh-Hant">使用繁體中文</Link></div></div></main>}
